@@ -1,0 +1,22 @@
+<ContentPage x:Class="MauiAppLogin20262.Views.Login" >
+    
+    <VerticalStackLayout Spacing="10"
+                         Padding="10">
+        
+        <Label 
+            Text="EadTec" FontSize="40" FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="E-mail:" />
+        <Entry x:Name="txt_email" Keyboard="Email" />
+
+        <Label Text="Senha:" />
+        <Entry x:Name="txt_senha" IsPassword="True" />
+
+        <Button Text="Entrar"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked" />
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiAppLogin20262.Views.Protegida"
+             Title="Protegida">
+
+    <VerticalStackLayout Spacing="10"
+                         Padding="10">
+
+        <Label Text="Área do Aluno"
+               FontSize="30"
+               FontAttributes="Bold"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+
+        <Label Text="Seja Bem-vindo(a)!" />
+        <Label x:Name="lbl_usuario" />
+
+        <Button Text="Desconectar"
+                HorizontalOptions="Center"
+                Clicked="OnDesconectarClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
